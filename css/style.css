@@ -28,8 +28,56 @@ body {
   width: 100%;
 }
 
-.verb h1 {
-  font-size: 200px;
-  text-align: center;
+.second {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-left: 60px;
+  letter-spacing: 4px;
+  margin-top: 60px;
+  color: #004c01;
 }
+
+.third {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: -14px;
+}
+
+.fourth {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: -18px;
+  color: #004c01;
+}
+
+.verb h1 span {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter; 
+  margin-left: 160px;
+}
+
+.verb h1 span:hover {
+  font-size: 180px;
+  color: #00ad02; 
+  margin-left: 160px;
+}
+
+.menu {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder; 
+  margin-left: 60px;
+  margin-top: 250px;
+
+}
+
+
+
+
 
