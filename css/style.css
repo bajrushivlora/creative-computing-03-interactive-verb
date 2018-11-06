@@ -28,29 +28,30 @@ body {
   width: 100%;
 }
 
-.second {
+.title {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 45px;
   margin-left: 60px;
   letter-spacing: 4px;
   margin-top: 60px;
   color: #004c01;
 }
 
-.third {
+.name {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   margin-left: 60px;
-  margin-top: -14px;
+  margin-top: -35px;
+  margin-bottom: 120px;
 }
 
-.fourth {
+.email {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   font-size: 15px;
   margin-left: 60px;
-  margin-top: -18px;
+  margin-top: 160px;
   color: #004c01;
 }
 
@@ -63,21 +64,37 @@ body {
 }
 
 .verb h1 span:hover {
-  font-size: 110px;
-  color: #00ad02; 
+  font-size: 80px;
+  letter-spacing: 110px;
+  color: #00ad02;
   margin-left: 160px;
 }
 
-.menu {
+.verbs {
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-weight: bolder; 
   margin-left: 60px;
-  margin-top: 250px;
-
 }
 
+a {
+  color: #a3d39e;
+}
 
+.one {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.two {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.three { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 
 

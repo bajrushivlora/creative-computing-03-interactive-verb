@@ -26,4 +26,155 @@ body {
 .content {
   height: 100%;
   width: 100%;
+  padding: 20px;
 }
+
+.shape {
+  background: #f442d7;
+  width: 200px;
+  height: 200px;
+}
+
+.circle {
+  border-radius: 100px;
+  background: #f442d7;
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards; 
+}
+
+.one {
+  border-radius: 40px;
+  background: #f442d7;
+  width: 50px;
+  height: 50px; 
+  animation-name: one;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.two {
+  border-radius: 40px;
+  background: #f442d7;
+  width: 50px;
+  height: 50px;
+  animation-name: two;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.three {
+  border-radius: 40px;
+  background: #f442d7;
+  width: 50px;
+  height: 50px;
+  animation-name: three;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.four {
+  border-radius: 40px;
+  background: #f442d7;
+  margin-left: 700px;
+  margin-bottom: 500px;
+  width: 50px;
+  height: 50px;
+  animation-name: four;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-200px);
+  }
+  70% {
+    transform: translateY(500px);
+  }
+  85% {
+    transform: translate(100px,400px);
+  }
+  100% {
+    transform: translate(250px,500px);
+  }
+}
+
+@keyframes one {
+  0% {
+    transform: translate(250px,300px);  
+  }
+  50% {
+    transform: translate(600px, -200px);
+  }
+  100% {
+    transform: translate(-200px, 500px) ;
+  }
+}
+
+
+@keyframes two {
+  0% {
+    transform: translate(250px,300px);  
+  }
+  20% {
+    transform: translate(80px, 60px);
+  }
+  50% {
+    transform: translate(400px, 500px);
+  }
+  80% {
+    transform: translate(-600px, -200px);
+  }
+  100% {
+    transform: translate(-200px, 500px) ;
+  }
+}
+
+
+@keyframes three {
+  0% {
+    transform: translate(250px,300px);  
+  }
+  20% {
+    transform: translate(-192px, 200px);
+  }
+  40% {
+    transform: translate(60px, 82px);
+  }
+  50% {
+    transform: translate(400px, 500px);
+  }
+  80% {
+    transform: translate(50px, -200px);
+  }
+  100% {
+    transform: translate(-200px, 500px) ;
+  }
+}
+
+
+@keyframes four {
+  0% {
+    transform: translate(250px,300px);  
+  }
+  30% {
+    transform: translate(80px, 90px);
+  }
+  50% {
+    transform: translate(-700px, 230px);
+  }
+  80% {
+    transform: translate(-50px, -200px);
+  }
+  100% {
+    transform: translate(-200px, 500px) ;
+  }
+}
+
