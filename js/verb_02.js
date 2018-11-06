@@ -46,8 +46,8 @@ function hslColor(h, s, l) {
   return color;
 }
 
-var hue = randomNumber(0, 340);
-var color = hslColor(hue, 50, 80);
+var hue = randomNumber(0, 360);
+var color = hslColor(hue, 360, 50);
 var element = document.querySelector('.two');
 element.style.background = color;
 
