@@ -28,158 +28,141 @@ body {
   width: 100%;
   padding: 20px;
 }
-}
-
-.shape {
-  background: #f442d7;
-  width: 200px;
-  height: 200px;
-}
-
-.circle {
-  border-radius: 100px;
-  background: #f442d7;
-  animation-name: drop;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards; 
-}
 
 .one {
   border-radius: 40px;
   background: #f442d7;
   width: 50px;
   height: 50px; 
-  animation-name: one;
+  margin-left: 40px;
+  animation-name: drop;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-delay: 1.6s;
 }
 
 .two {
   border-radius: 40px;
-  background: #f442d7;
+  background: #eef442;
   width: 50px;
   height: 50px;
-  animation-name: two;
+  margin-left: 70px;
+  animation-name: drops;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-delay: 1.6s;
 }
 
 .three {
   border-radius: 40px;
-  background: #f442d7;
+  background: #02c2f7;
   width: 50px;
   height: 50px;
-  animation-name: three;
+  margin-left: 120px;
+  animation-name: drope;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-delay: 1.6s;
 }
 
 .four {
   border-radius: 40px;
-  background: #f442d7;
-  margin-left: 700px;
-  margin-bottom: 500px;
+  background: #00ff7f;
   width: 50px;
   height: 50px;
-  animation-name: four;
+  margin-left: 130px;
+  animation-name: dropo;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
   animation-direction: normal;
-  animation-delay: 1.6s;
 }
 
 @keyframes drop {
   0% {
-    transform: translateY(-200px);
+    transform: translateY(-1400px);
   }
-  70% {
-    transform: translateY(500px);
+  20% {
+    transform: translateY(650px);
   }
-  85% {
+  50% {
     transform: translate(100px,400px);
   }
-  100% {
-    transform: translate(250px,500px);
+  70%{
+    transform: translate(300px, 650px);
+  }
+  85% {
+    transform: translate(500px,400px);
+  }
+  100%{
+    transform: translate(1800px, 650px);
   }
 }
 
-@keyframes one {
+@keyframes drops {
   0% {
-    transform: translate(250px,300px);  
-  }
-  50% {
-    transform: translate(600px, -200px);
-  }
-  100% {
-    transform: translate(-200px, 500px) ;
-  }
-}
-
-
-@keyframes two {
-  0% {
-    transform: translate(250px,300px);  
+    transform: translateY(-1700px);
   }
   20% {
-    transform: translate(80px, 60px);
-  }
-  50% {
-    transform: translate(400px, 500px);
-  }
-  80% {
-    transform: translate(-600px, -200px);
-  }
-  100% {
-    transform: translate(-200px, 500px) ;
-  }
-}
-
-
-@keyframes three {
-  0% {
-    transform: translate(250px,300px);  
-  }
-  20% {
-    transform: translate(-192px, 200px);
+    transform: translateY(600px);
   }
   40% {
-    transform: translate(60px, 82px);
+    transform: translate(400px,200px);
   }
-  50% {
-    transform: translate(400px, 500px);
+  60% {
+    transform: translate(500px,600px);
+  }
+  70% {
+    transform: translate(1000px, 100px);
   }
   80% {
-    transform: translate(50px, -200px);
+    transform: translate(1100px, 100px);
   }
   100% {
-    transform: translate(-200px, 500px) ;
+    transform: translate(1400px, 600px);
   }
 }
 
-
-@keyframes four {
+@keyframes drope {
   0% {
-    transform: translate(250px,300px);  
+    transform: translateY(-1000px);
   }
-  30% {
-    transform: translate(80px, 90px);
+  40% {
+    transform: translateY(550px);
   }
   50% {
-    transform: translate(-700px, 230px);
+    transform: translate(200px,200px);
   }
-  80% {
-    transform: translate(-50px, -200px);
+  60% {
+    transform: translate(250px,550px);
+  }
+  75% {
+    transform: translate(400px, 100px);
+  }
+  85% {
+    transform: translate(700px, 5500px);
   }
   100% {
-    transform: translate(-200px, 500px) ;
+    transform: translate(2000px, 600px);
+  }
+}
+
+@keyframes dropo {
+  0% {
+    transform: translateY(-2000px);
+  }
+  10% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translate(200px,200px);
+  }
+  60% {
+    transform: translate(600px,550px);
+  }
+  75% {
+    transform: translate(700px, -100px);
+  }
+  85% {
+    transform: translate(900px, 500px);
+  }
+  100% {
+    transform: translate(1400px, -400px);
   }
 }
 
