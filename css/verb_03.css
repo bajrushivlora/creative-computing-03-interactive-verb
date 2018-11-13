@@ -73,6 +73,10 @@ body {
   animation-direction: normal;
 }
 
+.shape-interaction {
+  transform: scale(2.5);
+}
+
 @keyframes drop {
   0% {
     transform: translateY(-1400px);
@@ -165,4 +169,5 @@ body {
     transform: translate(1400px, -400px);
   }
 }
+
 
