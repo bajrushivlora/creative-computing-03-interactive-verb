@@ -44,7 +44,7 @@ function hslColor(h, s, l) {
 
 
 var container = document.querySelector(".content");
-
+	
 	for (var i = 0; i < 1; i++) {
 	var shape = document.createElement('div');
 	shape.classList.add('shape-one');
@@ -73,20 +73,43 @@ var container = document.querySelector(".content");
 	container.append(shape);
 	}
 
-var shapes = document.querySelector('.shape-one');
-shapes.forEach (function(shape) {
+	for (var i = 0; i < 1; i++) {
+	var shape = document.createElement('div');
+  	shape.classList.add('shape');
+	container.append(shape);
+	}
 
-  shape.addEventListener('mousemove', function(shape) {
-    if (shape.style.contains('shape-interaction')) {
-      shape.classList.remove('shape-interaction');
-    } else {
-      shape.classList.add('shape-interaction');
+	for (var i = 0; i < 1; i++) {
+	var shape = document.createElement('div');
+ 	shape.classList.add('shape');
+	container.append(shape);
+	}	
+
+	for (var i = 0; i < 1; i++) {
+	var shape = document.createElement('div');
+	shape.classList.add('shape');
+	container.append(shape);
+	}
+
+	for (var i = 0; i < 1; i++) {
+	var shape = document.createElement('div');
+	shape.classList.add('shape');
+	container.append(shape);
+	}
+
+
+var shapes = document.querySelectorAll('.shape'); 
+
+shapes.forEach(function (shape) {
+	shape.addEventListener('mouseover', function() {
+
+    if (shape.classList.contains('shape-interaction')) {
+      	shape.classList.remove('shape-interaction');
+   	} else {
+    	shape.classList.add('shape-interaction');
     }
-  });
+  	});
 });
-
-
-
 
 
 
