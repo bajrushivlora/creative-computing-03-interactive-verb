@@ -101,7 +101,7 @@ var container = document.querySelector(".content");
 var shapes = document.querySelectorAll('.shape'); 
 
 shapes.forEach(function (shape) {
-	shape.addEventListener('mouseover', function() {
+	shape.addEventListener('click', function() {
 
     if (shape.classList.contains('shape-interaction')) {
       	shape.classList.remove('shape-interaction');
