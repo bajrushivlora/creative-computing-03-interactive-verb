@@ -76,7 +76,7 @@ var container = document.querySelector(".content");
 var shapes = document.querySelector('.shape-one');
 shapes.forEach (function(shape) {
 
-  shape.addEventListener('mousemove', function() {
+  shape.addEventListener('mousemove', function(shape) {
     if (shape.style.contains('shape-interaction')) {
       shape.classList.remove('shape-interaction');
     } else {
